@@ -1,0 +1,40 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: linear-gradient(to right top, #142743, #22586c, #4f8a8b, #92bda6, #e2edc7);
+}
+.container{
+    background-color:#005675;
+    margin-top: 130px;
+    width: 900px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.btn-outline-success{
+    color: #c2e377;
+}
+
+.btn:hover {
+    background-color: #4f8a8b;
+    color:white;
+}
+
+.white{
+    color:white;
+}
+
+.green{
+    color:#c2e377;
+}
+
+h2{
+    font-family: 'Baloo Tamma 2', cursive;
+}
