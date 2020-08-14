@@ -47,10 +47,13 @@
         top: 60px;
  
     }
+    #loader{
+        display: none;
+        margin-left: 40%;
+    }
     .resultsresultsContainer{
         border-right: 1px solid gray;
     }
-    
     .collapsible{
         margin: -100px;
         padding: 20px;
@@ -109,12 +112,19 @@
         padding: 20px;
         color: white;
         margin-bottom: 20px;
+        -webkit-box-shadow: 2px -1px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px -1px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 2px -1px 5px 0px rgba(0,0,0,0.75);    
+    }
+    .titleArtice{
+        padding: 10px;
     }
     .snippet{
         margin-top: 20px;
         margin-bottom: 20px;
         border-top: 1px solid white;
         border-bottom: 1px solid white;
+        padding: 20px;
     }
     .button2{
         background-color:white;
