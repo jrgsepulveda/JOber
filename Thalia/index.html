@@ -6,10 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -27,14 +26,14 @@
             </span>
         </div>
         <div class="ui action input">
-            <input id="jobTitel" type="text" placeholder="Job Title...">
-            <input id="location" type="text" placeholder="Location...">
+            <input class="user-input" id="jobTitel" type="text" placeholder="Job Title...">
+            <input class="user-input" id="location" type="text" placeholder="Location...">
             <button class="ui button searchBTN" id="searchBTN">Search</button>
         </div>
     </div>
     <div class="container-fluid resultsContainer">
         <div class="row">
-            <div class="col-md-8 col-sm-12">
+            <div class="col-md-8 col-sm-12">git
                 <table id="results"></table>
             </div>
             <div class="col-md-4 col-sm-12 justify-content-end">
@@ -46,11 +45,9 @@
 
     </div>
 
-    <!-- Optional JavaScript -->
-
+    <!-- JavaScript -->
     <script src="semantic/dist/semantic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
