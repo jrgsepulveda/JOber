@@ -51,6 +51,10 @@
         display: none;
         margin-left: 40%;
     }
+    #noResults{
+        display: none;
+        color: white;
+    }
     .resultsresultsContainer{
         border-right: 1px solid gray;
     }
